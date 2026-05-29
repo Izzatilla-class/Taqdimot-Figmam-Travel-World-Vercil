@@ -757,3 +757,11 @@ align-items: center;
     align-items: center;
     margin-right: 90px;
 }
+
+.register-bola .last-name{
+    width: 200px;
+}
+
+.register-bola .first-name{
+    width: 210px;
+}
