@@ -601,6 +601,10 @@ text-align: center;
     color: #FAA935;
 }
 
+.images3-login{
+    margin-left: 20px;
+}
+
 .login-bola p{
    text-align: center;
    font-size: 18px;
@@ -637,6 +641,7 @@ transition: all 0.5s linear;
 
 .login-bola .buttons-login:hover{
     background-color: red;
+    border: 2px solid red;
     color: rgb(255, 255, 255);
 }
 
@@ -652,7 +657,8 @@ transition: all 0.5s linear;
 
 
 .imagesppp-login{
-margin-left: -40px;
+margin-left: -55px;
+width: 100%;
 }
 
 .login-images{
@@ -660,10 +666,12 @@ margin-left: -40px;
    align-items: center;
    justify-content: space-between;
    gap: 30px;
-   margin-left: 40px;
-
+   margin-left: 55px;
 }
 
+.login-icons-otas{
+   margin-left: -15px;
+}
 
 .login-icons{
   display: flex;
