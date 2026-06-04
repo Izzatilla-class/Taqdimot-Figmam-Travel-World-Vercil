@@ -647,7 +647,7 @@ transition: all 0.5s linear;
 }
 
 .images1-login{
-  padding-left: 70px;
+  padding-right: -80px;
 }
 
 
@@ -660,14 +660,16 @@ margin-left: -40px;
    align-items: center;
    justify-content: space-between;
    gap: 30px;
-   margin-left: 50px;
+   margin-left: 40px;
 
 }
+
 
 .login-icons{
   display: flex;
   align-items: center;
   margin-left: 50px;
+gap: 20px;
 }
 
 .images-login{
@@ -678,7 +680,7 @@ height: 50px;
    padding: 10px;
    width: 50px;
    align-items: center;
-
+margin-right: 10px;
 }
 
 .img-l{
