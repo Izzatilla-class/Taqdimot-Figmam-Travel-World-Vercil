@@ -33,7 +33,7 @@ a{
 }
 
 .continer{
-    width: 1120px;
+    max-width: 1120px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -646,8 +646,28 @@ transition: all 0.5s linear;
     padding-bottom: 15px;
 }
 
+.images1-login{
+  padding-left: 70px;
+}
+
+
+.imagesppp-login{
+margin-left: -40px;
+}
+
 .login-images{
-    text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 30px;
+   margin-left: 50px;
+
+}
+
+.login-icons{
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
 }
 
 .images-login{
@@ -658,110 +678,120 @@ height: 50px;
    padding: 10px;
    width: 50px;
    align-items: center;
+
 }
 
 .img-l{
     align-items: center;
-    margin-right: -359px;
     margin-top: -45px;
     justify-content: space-between;
 }
 
-.register-bola input{
-border: 2px solid #FAA935;
-padding: 15px;
-border-radius: 6px;
+.register-ota {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
 }
 
-.register-ota{
-display: flex;
-gap: 100px;
-justify-content: space-between;
+.register-bola input {
+  border: 2px solid #faa935;
+  padding: 15px;
+  border-radius: 6px;
 }
 
-.register-bola .input1{
-    margin-top: 15px;
-    width: 415px;
+.register-bola .first-name {
+  width: 210px;
 }
 
-.register-bola .input2{
-     margin-top: 15px;
-    width: 415px;
+.register-bola .last-name {
+  width: 200px;
 }
 
-.register-bola .input3{
-     margin-top: 15px;
-    width: 415px;
+.register-bola .input1,
+.register-bola .input2,
+.register-bola .input3 {
+  width: 415px;
+  margin-top: 15px;
 }
 
-.register-bola h1{
-    color: #FAA935;
-    padding-bottom: 10px;
-    font-size: 32px;
+.register-bola h1 {
+  color: #faa935;
+  font-size: 32px;
+  padding-bottom: 10px;
 }
 
-.register-bola p{
-    padding-bottom: 15px;
-    font-size: 20px;
+.register-bola p {
+  font-size: 20px;
+  padding-bottom: 15px;
 }
 
-.register-bola p span{
-    color: #FAA935;
+.register-bola p span {
+  color: #faa935;
 }
 
-.register-bola a button{
-    background-color: #FAA935;
-    padding: 10px;
-    width: 200px;
-    border: 2px solid #FAA935;
-    color: rgb(255, 255, 255);
-font-size: 25px;
-border-radius: 10px;
+.register-bola a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.register-bola a button {
+  background-color: #faa935;
+  color: white;
+  border: 2px solid #faa935;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  margin-left: -170px;
+  font-size: 25px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.6s linear;
+}
+
+.register-bola a button:hover {
+  background-color: red;
+  border-color: red;
+  color: white;
+}
+
+.register-bola h4 {
+  text-align: center;
+  margin-left: -160px;
+  margin-top: -30px;
+}
+
+.register-bola1 {
+  display: flex;
+  align-items: baseline;
+}
+
+.register-aka {
+  margin-left: -150px;
+}
+
+.login-images1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-left: -160px;
+}
+
+.images-login1 {
+  border: 2px solid #faa935;
+  border-radius: 6px;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.img-l1 {
+margin-left: 390px;
 align-items: center;
-margin-top: 20px;
-margin-left: 110px;
-transition: all 0.6s linear;
+margin-top: -80px;
 }
 
-.register-bola a button:hover{
-    background-color: red;
-    color: white;
-    border: 2px solid red;
-}
 
-.register-bola h4{
-    text-align: center;
-    margin-left: -90px;
-}
 
-.register-bola .displays{
-display: flex;
-align-items: center;
-}
-
-.register-bola1  {
-   display: flex;
-   align-items: baseline;
-}
-
-.register-aka{
-    margin-left: -170px;
-}
-
-.register-bola .login-images .images-l{
-    margin-left: 85px;
-    margin-top: -40px;
-}
-
-.register-bola .login-images{
-    align-items: center;
-    margin-right: 90px;
-}
-
-.register-bola .last-name{
-    width: 200px;
-}
-
-.register-bola .first-name{
-    width: 210px;
-}
