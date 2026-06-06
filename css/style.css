@@ -803,5 +803,31 @@ align-items: center;
 margin-top: -80px;
 }
 
+.bola-search{
+   display: flex;
+    align-items: center;
+    gap: 60px;
+   justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 35px;
+    border-radius: 40px;
+    width: 1000px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    height: 80px;
+}
 
+.bola-search h3{
+    font-size: 15px;
+}
 
+.bola-search p{
+    font-size: 10px;
+}
+
+.uka-search{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
